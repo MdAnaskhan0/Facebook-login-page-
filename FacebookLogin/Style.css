@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4e4e4;
+}
+
+.facebook{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.facebook .content{
+    text-align: center;
+    padding-top: 25%;
+}
+
+.content h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #1877F2;
+    padding-bottom: 10px;
+}
+
+.content p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 35%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.facebook .loginform{
+    text-align: center;
+    padding: 30% 40% 0% 0%;
+}
+
+.loginform .form{
+border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.form input{
+    font-size: 1rem;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+::placeholder{
+    font-size: 12px;
+    color: #777;
+    background-color: #fff;
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.form .login{
+    background-color: #1877F2;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 1px solid #1877F2;
+    border-radius: 6px;
+    padding: 8px 0px;
+}
+.form .forgot{
+    background-color: #ffffff;
+    color: #1877F2;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+}
+
+.form .create{
+    background-color: #36A420;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 10px 0px;
+    margin: 0% 15%;
+}
